@@ -46,7 +46,7 @@ h1 {
     display: flex;
     justify-content: center;
    
-    gap: 16px;
+    gap: 26px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -109,26 +109,69 @@ h2 {
 
 .inside {
     width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sitat {
     width: 500px;
     font-style: italic;
+    
 }
 
 p.author {
     font-weight: bold;
     width: 500px;
     margin-top: 0;
-    margin-left: auto;
-    
+    text-align: right;  
 }
 
-.signup {
+.zero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
     height: 100px;
     width: 600px;
     background-color: #3882F6;
     margin: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3, .tekst>p {
+    color: white;
+    margin: 0;
+}
+
+.innhold {
+    display: flex;
+    padding: 16px;
+    gap: 30px;
+}
+
+.tekst {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+button.last {
+        border: 1px solid white;
+        flex: 1;
+        margin-top: 5px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
     display: flex;
     justify-content: center;
     align-items: center;
