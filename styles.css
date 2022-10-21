@@ -63,3 +63,74 @@ button {
     font-weight: bold;
     color: #F9FAF8;
 }
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.section1-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.single-items {
+    width: 150px;
+}
+
+.offer-image {
+    width: 140px;
+}
+
+p.offer {
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    
+}
+
+.inside {
+    width: 600px;
+}
+
+.sitat {
+    width: 500px;
+    font-style: italic;
+}
+
+p.author {
+    font-weight: bold;
+    width: 500px;
+    margin-top: 0;
+    margin-left: auto;
+    
+}
+
+.signup {
+    height: 100px;
+    width: 600px;
+    background-color: #3882F6;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
